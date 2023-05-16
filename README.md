@@ -9,13 +9,13 @@ $ docker exec -i localhasura-postgres-1 psql -U postgres postgres < bot_balances
 $ docker exec -i localhasura-postgres-1 psql -U postgres postgres < runs.sql
 ```
 
-Visit http://localhost:8080/console/data/manage and click <Connect database>
-Choose <Postgres> and click <Connect Existing Database>
-At <Database name> enter "default"
+Visit http://localhost:8080/console/data/manage and click [Connect database]
+Choose [Postgres] and click [Connect Existing Database]
+At [Database name] enter "default"
 Choose Emvironment variable and enter "PG_DATABASE_URL"
-Click <Connect Database>
+Click [Connect Database]
 
-Choose default > public and [Under untracked tables and views] click <Track All> to expose all schemas over the GraphQL API
+Choose default > public and [Under untracked tables and views] click [Track All] to expose all schemas over the GraphQL API
 
 
 Particular case:
